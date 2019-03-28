@@ -58,7 +58,7 @@ void help()
             << "        _pervasive:=true|false     Enable/Disable running the pipeline defined in the analysis engine xml" << std::endl
             << "         _parallel:=true|false     Enable/Disable parallel execution of pipeline (json_prolog is required)" << std::endl
             << "        _withIDRes:=true|false     Enable/Disable running object identity resolution" << std::endl
-            << "               _ke:=ke_type        Set the knowledge engine you want to use; Values are: [SWI_PROLOG, KNOWROB]. Default is SWI_PROLOG." << std::endl
+            << "               _ke:=ke_type        Set the knowledge engine you want to use; Values are: [SWI_PROLOG, JSON_PROLOG]. Default is SWI_PROLOG." << std::endl
             << std::endl;
 }
 
